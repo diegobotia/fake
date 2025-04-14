@@ -106,4 +106,4 @@ jobs:
           #Set artifact name
           name: artifact
           #From this path
-          path: target/fake-0.0.1-SNAPSHOT.jar
+          path: target/faker-0.0.1-SNAPSHOT.jar
