@@ -1,5 +1,5 @@
 # Etapa de construcción
-FROM maven:3.8.2-jdk-11 AS build # Nombramos esta etapa como 'build'
+FROM maven:latest AS build 
 WORKDIR /app
 COPY . .
 RUN mvn clean package -DskipTests
